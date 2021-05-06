@@ -10,6 +10,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+
 fetch("/api/transaction")
   .then(response => {
     return response.json();
